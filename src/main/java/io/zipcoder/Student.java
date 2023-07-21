@@ -12,4 +12,23 @@ public class Student {
         this.lastName = lastName;
         this.examScores = examScores;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+    public int getNumberOfExamsTaken(){
+        return examScores.size();
+    }
 }
